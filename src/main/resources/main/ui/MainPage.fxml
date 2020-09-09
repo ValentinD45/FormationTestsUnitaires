@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="anchorIHM" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.ui.MainPageController">
+   <Label fx:id="countRate" layoutX="36.0" layoutY="28.0" text="Label" />
+   <ImageView fx:id="imageViewCam1" fitHeight="512.0" fitWidth="910.0" layoutX="688.0" layoutY="149.0" pickOnBounds="true" preserveRatio="true" />
+   <ImageView fx:id="imageViewCam2" fitHeight="310.0" fitWidth="390.0" layoutX="1096.0" layoutY="699.0" pickOnBounds="true" preserveRatio="true" />
+</AnchorPane>
